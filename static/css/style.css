@@ -1,0 +1,27 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+h2 {
+    color: #1E2A38;
+    font-weight: bold;
+}
+
+.lema {
+    color: #C8A951;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+h1, h3 {
+    color: #1E2A38;
+}
+
+footer {
+    margin-top: 50px;
+}
