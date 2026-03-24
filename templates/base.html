@@ -10,6 +10,11 @@
 
 <body>
 
+   <div id="loader">
+    <div class="spinner"></div>
+    <p>Cargando contenido edificante...</p>
+</div> 
+
 <header class="header">
     <img src="{{ url_for('static', filename='images/logo.png') }}" class="logo">
     <h1>Iglesia Misión Cristiana #18</h1>
@@ -31,6 +36,12 @@
 <footer class="footer">
     <p>© 2026 Iglesia Misión Cristiana #18 - Larreynaga, León, Nicaragua</p>
 </footer>
+
+<script>
+window.addEventListener("load", function() {
+    document.getElementById("loader").style.display = "none";
+});
+</script>
 
 </body>
 </html>
