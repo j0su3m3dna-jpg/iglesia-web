@@ -2,6 +2,11 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+
+@app.route("/")
+def inicio():
+    return "Bienvenido a Iglesia Misión Cristiana #18"   
+
 @app.route("/")
 def inicio():
     return render_template("index.html")
