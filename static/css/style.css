@@ -40,3 +40,17 @@ footer {
     color: #0b1f3a;
     margin-bottom: 15px;
 }
+
+.banner-dia-madres {
+    width: 100%;
+    padding: 40px 20px;
+    background: #f8f9fb;
+    text-align: center;
+}
+
+.banner-dia-madres img {
+    width: 100%;
+    max-width: 1100px;
+    border-radius: 8px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
