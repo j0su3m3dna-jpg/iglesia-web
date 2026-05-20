@@ -25,3 +25,18 @@ h1, h3 {
 footer {
     margin-top: 50px;
 }
+
+.anuncio {
+    border-top: 4px solid #c8a96a;
+    transition: 0.3s;
+}
+
+.anuncio:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.anuncio h3 {
+    color: #0b1f3a;
+    margin-bottom: 15px;
+}
