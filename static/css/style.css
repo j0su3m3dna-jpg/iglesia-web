@@ -117,3 +117,13 @@ footer {
 .hora {
     color: #666;
 }
+
+.banner-actividad {
+    width: 100%;
+    max-width: 950px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
