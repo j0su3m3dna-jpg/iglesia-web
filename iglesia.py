@@ -18,6 +18,10 @@ def doctrina():
 def sermones():
     return render_template("sermones.html")
 
+@app.route("/actividades")
+def actividades():
+    return render_template("actividades.html")
+
 @app.route("/contacto")
 def contacto():
     return render_template("contacto.html")

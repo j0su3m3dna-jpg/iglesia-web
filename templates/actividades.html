@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="hero-mini">
+    <h1>Actividades Ministeriales</h1>
+    <p>
+        Conoce nuestras reuniones, eventos y actividades congregacionales.
+    </p>
+</section>
+
+<section class="section">
+
+    <div class="actividad-grande">
+
+        <img src="{{ url_for('static', filename='images/banner-madres.png') }}">
+
+        <div class="actividad-info">
+
+            <span class="fecha-evento">30 MAYO 2026</span>
+
+            <h2>Celebración Día de las Madres</h2>
+
+            <p>
+                Tendremos una celebración especial en honor a las madres,
+                agradeciendo a Dios por sus vidas y su dedicación.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section">
+
+    <h2>Calendario Semanal</h2>
+
+    <div class="tabla-actividades">
+
+        <div class="fila">
+            <div class="dia">Martes a Viernes</div>
+            <div class="evento">Cultos Congregacionales</div>
+            <div class="hora">5:00 pm — 7:00 pm</div>
+        </div>
+
+        <div class="fila">
+            <div class="dia">Sábado a Lunes</div>
+            <div class="evento">Cultos Generales</div>
+            <div class="hora">6:00 pm — 8:00 pm</div>
+        </div>
+
+        <div class="fila">
+            <div class="dia">Viernes</div>
+            <div class="evento">Ayuno Congregacional</div>
+            <div class="hora">10:00 am — 1:00 pm</div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section">
+
+    <h2>Próximos Eventos</h2>
+
+    <div class="eventos-grid">
+
+        <div class="evento-card">
+            <img src="{{ url_for('static', filename='images/ayuno.png') }}">
+
+            <div class="evento-contenido">
+                <span class="fecha">JUNIO 2026</span>
+
+                <h3>Semana de Oración</h3>
+
+                <p>
+                    Una semana dedicada a la búsqueda de Dios y fortalecimiento espiritual.
+                </p>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+</section>
+
+{% endblock %}
