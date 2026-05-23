@@ -22,6 +22,10 @@ def sermones():
 def actividades():
     return render_template("actividades.html")
 
+@app.route("/SecretaríaG")
+def secretaria():
+    return render_template("SecretaríaG.html")
+
 @app.route("/contacto")
 def contacto():
     return render_template("contacto.html")
